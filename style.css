@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fon{
+    width: 100%;
+    background-color: aqua;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+
+}
+@media (min-width: 720px) {
+    .red{
+        width: 100%;
+        background-color: red; 
+        display: flex; 
+        padding: 5px;
+    }
+    .red1{
+        background-color: pink;
+        height: 100px;
+        flex-basis: 75%;
+        margin: 0px;
+
+    }
+    .red2{
+        background-color: pink;
+        height: 100px; 
+        flex-basis: 25%; 
+        margin: 0px;
+    }
+    .green{
+        width: 100%;
+        background-color: green;
+        display: flex;
+        padding: 5px;
+        gap: 5px;
+    }
+    .green1{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+
+    }
+    .green2{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+
+    }
+    .green3{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+        display: none;
+    }
+    .orange{
+        width: 100%;
+        padding: 5px;
+        background-color: orange;
+
+    }
+    .orange1{
+        width: 100%;
+        height: 100px;
+        background-color:gold;
+    }
+    .blue{
+        width: 100%;
+        padding: 5px; 
+        background-color: blue;
+        display: flex;
+        gap: 5px;
+    }
+    .blue1{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue2{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue3{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue4{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+        display: none;
+
+
+    }
+    .purple{
+        width: 100%;
+        background-color: blueviolet;
+        padding: 5px;
+        /* display:inline; */
+        /* display: block; */
+        /* display: inline-block; */
+
+    }
+    .purple1{
+        width: 100%;
+        background-color: black;
+        height:100px;
+        /* display:inline; */
+        /* display: block; */
+        /* display: inline-block; */
+
+    }
+}
+@media (min-width: 0px) {
+    .red{
+        width: 100%;
+        background-color: red; 
+        padding: 0px;
+
+
+        }
+    .red1{
+        background-color: pink;
+        height: 100px;
+        width: 98,5%;
+        margin: 5px;
+    }
+    .red2{
+        background-color: pink;
+        height: 100px;
+        width: 98,5%;
+        margin: 5px;
+    
+    }
+    .green{
+        width: 100%;
+        background-color: green;
+        display: flex;
+        padding: 5px;
+        gap: 5px;
+    }
+    .green1{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+
+    }
+    .green2{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+
+    }
+    .green3{
+        width: 100%;
+        height: 100px;
+        background-color: goldenrod;
+    }
+    .orange{
+        width: 100%;
+        padding: 5px;
+        background-color: orange;
+
+    }
+    .orange1{
+        width: 100%;
+        height: 100px;
+        background-color:gold;
+    }
+    .blue{
+        width: 100%;
+        padding: 5px; 
+        background-color: blue;
+        display: flex;
+        gap: 5px;
+    }
+    .blue1{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue2{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue3{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .blue4{
+        width: 100%;
+        background-color: aquamarine;
+        height: 100px;
+
+
+    }
+    .purple{
+        width: 100%;
+        background-color: blueviolet;
+        padding: 5px;
+        /* display: none;  */
+    }
+    .purple1{
+        width: 100%;
+        background-color: black;
+        height:100px;
+        /* display: none;   */
+    }
+    
+    
+}
